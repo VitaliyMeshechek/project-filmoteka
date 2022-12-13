@@ -1,0 +1,33 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $Background-footer;
+  &__copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    @media screen and (min-width: $tablet) {
+      justify-content: center;
+      flex-direction: row;
+      gap: 3px;
+    }
+  }
+  &__copyright-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__copyright-text {
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: $Footer-text;
+  }
+  &__copyright-link {
+    margin-left: 3px;
+    color: $Footer-text;
+  }
+}

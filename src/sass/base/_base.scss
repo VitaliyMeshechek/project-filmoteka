@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $mainfont;
+  font-weight: 500;
+  color: $Black-text;
+}
+
+img {
+  display: block;
+  width: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}

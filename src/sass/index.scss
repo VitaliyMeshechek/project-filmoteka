@@ -1,0 +1,20 @@
+// Utils
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import './utils/variables';
+
+// Components
+
+@import './components/container';
+@import './components/card-set';
+
+// Layout
+
+@import './layout/header';
+@import './layout/films-gallery';
+@import './layout/footer';
+
+// Base
+
+@import './base/base';
+@import './base/reset';
+@import './base/hidden';
